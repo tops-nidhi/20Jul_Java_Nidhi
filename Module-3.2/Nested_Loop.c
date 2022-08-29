@@ -6,8 +6,15 @@ void main()
     {
         for ( j = 0; j < 5; j++)
         {
-            printf("%d",i);
+            printf("%d ",j);
         }
         printf("\n");
     }
 }
+/*
+1
+22
+333
+4444
+55555
+*/
