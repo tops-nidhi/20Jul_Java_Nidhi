@@ -2,10 +2,8 @@
 void main()
 {
     int i;
-    i=1;
-    while(i <= 10)
+    for(i = 10; i > 0; i--)
     {
         printf("\n%d",i);
-        i++;
     }
 }
