@@ -8,6 +8,5 @@ void main()
     int no;
     printf("Enter no:");
     scanf("%d",&no);
-    data(no);
-    
+    data(no);   
 }
