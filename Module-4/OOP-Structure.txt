@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+class class_name 
+{
+    private:
+    //private body
+    public:
+    //public body
+    protected:
+    //protected body
+};
+int main()
+{
+    class_name object_name;
+    /*code*/
+}
