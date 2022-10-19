@@ -6,15 +6,15 @@ public:
     int a;
     int get()
     {
-        cout<<"Enter value of no:";
+        cout<<"\nEnter value of no:";
         cin>>a;
         return 0;
     }
-    Operator operator --()
+    Operator operator -(Operator op2)
     {
-        Operator op;
-        a--;
-        return op;
+        Operator op3;
+        op3.a = a + op2.a;
+        return op3;
     }
     int show()
     {
@@ -24,8 +24,10 @@ public:
 };
 int main()
 {
-    Operator obj;
-    obj.get();
-    --obj;
-    obj.show();
+    Operator obj1,obj2,obj3;
+
+    obj1.get();
+    obj2.get();
+    obj3 = obj1 - obj2;
+    obj3.show();
 }
